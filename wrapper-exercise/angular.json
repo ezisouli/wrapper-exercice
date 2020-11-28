@@ -123,5 +123,10 @@
   "defaultProject": "wrapper-exercise",
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }
